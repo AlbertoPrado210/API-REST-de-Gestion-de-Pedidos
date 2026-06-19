@@ -1,0 +1,60 @@
+HELP.md
+target/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+# Archivos de compilación
+target/
+build/
+
+# Logs
+*.log
+
+# Archivos temporales
+*.swp
+*.swo
+*.tmp
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Configuración de Maven Wrapper (si no quieres subirlos)
+mvnw
+mvnw.cmd
+
+# Configuración de cobertura/pruebas
+.coverage/
+jacoco.exec
+
+# Archivos de cache
+.cache/
+
